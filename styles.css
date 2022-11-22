@@ -17,7 +17,7 @@ main {
   width: 100%;
   min-height: 100vh;
   overflow: hidden;
-  background-color: #0f0f7d;
+  background-color: #2b2bc5;
   padding: 2rem;
   display: flex;
   align-items: center;
@@ -26,6 +26,7 @@ main {
 
 .mobile {
     display: none;
+    margin-bottom: 20px;
 }
 .bottom{
     font-family: 'Amita', cursive;
@@ -37,7 +38,7 @@ main {
   position: relative;
   width: 100%;
   max-width: 1020px;
-  height: 950px;
+  height: 980px;
   background-color: rgb(242, 242, 242);
   border-radius: 2rem;
   box-shadow: 0 60px 40px -30px rgba(0, 0, 0, 0.27);
@@ -78,6 +79,7 @@ form {
 }
 
 .logo {
+  margin-top: 10px;
   width: 50%;
   top: auto;
   opacity: 1;
@@ -129,6 +131,12 @@ label {
   pointer-events: none;
   transition: 0.4s;
 }
+.heading{
+  text-align: center;
+}
+.heading img{
+  width: 250px;
+}
 
 .input-field.active {
   border-bottom-color: #151111;
@@ -154,7 +162,7 @@ label {
 }
 
 .register-btn:hover {
-  background-color: #0f0f7d;
+  background-color: #13136d;
 }
 
 .captcha {
