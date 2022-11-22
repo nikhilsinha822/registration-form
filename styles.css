@@ -17,7 +17,7 @@ main {
   width: 100%;
   min-height: 100vh;
   overflow: hidden;
-  background-color: #2b2bc5;
+  background-color: #f2f2f2;
   padding: 2rem;
   display: flex;
   align-items: center;
@@ -32,16 +32,16 @@ main {
     font-family: 'Amita', cursive;
     font-size: 5rem;
     color: rgb(13, 42, 94);
-    text-shadow: 2px 2px 10px ;
+    text-shadow: 2px 2px rgba(6, 20, 45, 0.411);;
 }
 .box {
   position: relative;
   width: 100%;
   max-width: 1020px;
   height: 980px;
-  background-color: rgb(242, 242, 242);
+  background-color: #f2f2f2;
   border-radius: 2rem;
-  box-shadow: 0 60px 40px -30px rgba(0, 0, 0, 0.27);
+  box-shadow: 10px 10px 10px 10px rgba(0, 0, 0, 0.084);
 }
 
 .inner-box {
@@ -270,7 +270,7 @@ label {
     font-family: 'Amita', cursive;
     font-size: 5rem;
     color: rgb(13, 42, 94);
-    text-shadow: 2px 2px 10px ;
+    text-shadow: 2px 2px rgba(6, 20, 45, 0.411);
 }
 
 @media (max-width: 850px) {
